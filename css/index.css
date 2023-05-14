@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.title h1{
+    text-align: center;
+    padding: 5% 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper{
+    width: 540px;
+    margin: auto;
+}
+@media (max-width:745px) {
+    .wrapper{
+        width: 460px;
+        margin: auto;
+    }
+}
+.input-add{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.List button{
+    float: right;
+}
+.List{
+    position: relative;
+    width: 330px;
+    border: 1px solid black;
+    margin: auto;
+}
+@media (max-width:745px) {
+    .List{
+        position: relative;
+        width: 50%;
+        border: 1px solid black;
+        margin: auto;
+    }
+}
+.List-items{
+    display: flex;
+    gap: 10px;
+    padding:5px;
+    border: 1px solid black;
+    margin: auto;
+    word-break: break-all;
+
+}
+.List-items #Del-button{
+    border-style: none;
+    background-color: rgba(255, 0, 0, 0.671);
+    border-radius: 5px;
+}
+.List-items #Del-button:hover{
+    border-style: none;
+    background-color: rgba(0, 255, 21, 0.671);
+    border-radius: 5px;
+}
+.item-list ul{
+    list-style: none;
+    padding-left: 0;
+    margin: auto;
+    height: 250px;
+    overflow-y: scroll;
+    
+}
